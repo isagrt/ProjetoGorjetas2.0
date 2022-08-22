@@ -3,12 +3,12 @@ export default {
   data() {
     return {
       qualidades: [
-        { qualidade: 5, servico: "5% (Péssimo)" },
-        { qualidade: 10, servico: "10% (Ruim)" },
-        { qualidade: 15, servico: "15% (OK)" },
-        { qualidade: 20, servico: "20% (Bom)" },
-        { qualidade: 25, servico: "25% (Mais que bom)" },
-        { qualidade: 30, servico: "30% (Exelente)" },
+        { qualidade: 5, servico: "Péssimo!" },
+        { qualidade: 10, servico: "Ruim!" },
+        { qualidade: 15, servico: "OK!" },
+        { qualidade: 20, servico: "Bom!" },
+        { qualidade: 25, servico: "Mais que bom!" },
+        { qualidade: 30, servico: "Exelente!" },
       ],
       valor: 0,
       pessoa: 1,
