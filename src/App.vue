@@ -8,7 +8,7 @@ export default {
         { qualidade: 15, servico: "OK!" },
         { qualidade: 20, servico: "Bom!" },
         { qualidade: 25, servico: "Mais que bom!" },
-        { qualidade: 30, servico: "Exelente!" },
+        { qualidade: 30, servico: "Eelente!" },
       ],
       valor: 0,
       pessoa: 1,
