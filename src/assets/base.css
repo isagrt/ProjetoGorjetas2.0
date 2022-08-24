@@ -1,16 +1,8 @@
-*{box-sizing: border-box;
-  margin: 0;
-  position: relative;
-  font-weight: 400;
+#forms-gorjeta {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
 }
 
-
-#forms-gorjeta{
-display: flex;
-flex-direction: column;
-justify-content: center;
-}
-
-#forms-gorjeta input{
-
+#forms-gorjeta input {
 }

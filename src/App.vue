@@ -30,11 +30,11 @@ export default {
   <main>
     <div>
       <h1>Calculadora de Gorjetas</h1>
-      <div class="forms-gorjeta">
+      <div class="formtip">
         <label for="">Qual o valor da conta?</label>
         <input type="number" v-model="valor" placeholder="0" />
       </div>
-      <div class="forms-gorjeta">
+      <div class="formtip">
         <label for="select-servico">Como foi o serviço?</label>
         <select
           name="select-qualidade "
@@ -53,8 +53,8 @@ export default {
         </select>
       </div>
 
-      <div class="forms-gorjeta">
-        <label for="">Quantas pessoas iram pagar?</label>
+      <div class="formtip">
+        <label for="">Quantas pessoas irão pagar?</label>
         <input type="number" v-model="pessoa" placeholder="1" />
       </div>
 
@@ -65,3 +65,14 @@ export default {
     </div>
   </main>
 </template>
+
+<style>
+#formtip {
+  display: flex;
+  justify-content: center;
+}
+
+input, select {
+  padding: 1%;
+}
+</style>
