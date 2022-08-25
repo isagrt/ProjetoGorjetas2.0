@@ -58,7 +58,7 @@ export default {
         <input type="number" v-model="pessoa" placeholder="1" />
       </div>
 
-      <div>
+      <div class="result">
         <h2>Valor da conta:</h2>
         <span>R$ {{ valor_final }} por pessoa</span>
       </div>
@@ -68,25 +68,36 @@ export default {
 
 <style>
 body {
+  margin: 0;
+  padding: 0;
+  height: 100vh;
   display: flex;
-  place-items: center;
   align-items: center;
   justify-content: center;
 }
-h1 {
-  text-align: center;
+.calculator {
+  padding: 30px;
+  border: 5px solid #569b67;
 }
-form {
-  padding: 10%;
+main {
+  
+}
+.formtip {
   display: flex;
   flex-direction: column;
 }
 input,
 select {
-  padding: 1%;
-  border-radius: 2%;
+  padding: 2%;
 }
-.resultado {
-
+label {
+  font-size: 1.4em;
+  padding: 1%;
+}
+.result {
+  background-color: rgb(225, 192, 255);
+  border: 5px solid rgb(225, 192, 255);
+ margin: 10px;
+ border-radius: 2%;
 }
 </style>
