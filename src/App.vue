@@ -27,7 +27,7 @@ export default {
 </script>
 
 <template>
-  <main>
+  <main class="calculator">
     <div>
       <h1>Calculadora de Gorjetas</h1>
       <div class="formtip">
@@ -67,12 +67,14 @@ export default {
 </template>
 
 <style>
-#formtip {
+body{
+  margin: 0;
+  padding: 0;
   display: flex;
   justify-content: center;
-}
 
-input, select {
-  padding: 1%;
+}
+#calculator{
+  border: 5px;
 }
 </style>
