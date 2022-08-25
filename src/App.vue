@@ -67,14 +67,26 @@ export default {
 </template>
 
 <style>
-body{
-  margin: 0;
-  padding: 0;
+body {
   display: flex;
+  place-items: center;
+  align-items: center;
   justify-content: center;
-
 }
-#calculator{
-  border: 5px;
+h1 {
+  text-align: center;
+}
+form {
+  padding: 10%;
+  display: flex;
+  flex-direction: column;
+}
+input,
+select {
+  padding: 1%;
+  border-radius: 2%;
+}
+.resultado {
+
 }
 </style>
