@@ -77,14 +77,14 @@ body {
 }
 .calculator {
   padding: 30px;
-  border: 5px solid #569b67;
+  border: 5px solid #636464;
+  border-radius: 2%;
 }
-main {
-  
-}
+
 .formtip {
   display: flex;
   flex-direction: column;
+  
 }
 input,
 select {
@@ -95,9 +95,9 @@ label {
   padding: 1%;
 }
 .result {
-  background-color: rgb(225, 192, 255);
-  border: 5px solid rgb(225, 192, 255);
- margin: 10px;
- border-radius: 2%;
+  background-color: #636464;
+  border: 5px solid #636464;
+  border-radius: 2%;
+  margin-top: 5%;
 }
 </style>
